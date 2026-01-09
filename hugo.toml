@@ -1,6 +1,6 @@
 baseURL = 'https://somepati.github.io/web'
 languageCode = 'en-us'
-title = 'Ã0x0 = ERROR_SUCCESS'
+title = '0x0 = ERROR_SUCCESS'
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
