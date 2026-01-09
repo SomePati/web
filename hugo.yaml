@@ -4,7 +4,7 @@ title: '0x0 = ERROR_SUCCESS'
 
 module:
   imports:
-    - path: "github.com/hugo-sid/hugo-blog-awesome"
+    - path: "github.com/imfing/hextra"
 
 menu:
   main:
