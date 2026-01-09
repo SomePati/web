@@ -8,21 +8,17 @@ module:
 
 menu:
   main:
-    - name: Docs
+    - name: docs
       pageRef: /docs
       weight: 1
-    - name: About
+    - name: about
       pageRef: /about
       weight: 2
-    - name: Contact ↗
+    - name: contact ↗
       url: "https://github.com/SomePati"
       weight: 3
-    - name: Search
+    - name: github
       weight: 4
-      params:
-        type: search
-    - name: Github
-      weight: 5
       url: "https://github.com/SomePati/hextra-starter-template"
       params:
         icon: github
@@ -38,14 +34,14 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/SomePati/hextra-starter-template/edit/main/content"
+    base: "https://github.com/SomePati/web/edit/main/content"
 
   comments:
     enable: false
     type: giscus
 
     giscus:
-      repo: SomePati/hextra-starter-template
+      repo: SomePati/web
       repoId: R_kgDOQ0L82A
       category: General
       categoryId: DIC_kwDOQ0L82M4C0m65
