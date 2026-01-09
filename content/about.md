@@ -2,6 +2,7 @@
 title: about
 ---
 {{ partial "reading-time.html" . }}
+{{ .ReadingTime }}
 
 This is the about page.
 
