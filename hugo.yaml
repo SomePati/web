@@ -52,3 +52,13 @@ params:
   editURL:
     enable: true
     base: "https://github.com/SomePati/web/edit/main/content"
+    
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: SomePati/web
+      repoId: R_kgDOQ2Yhkw
+      category: General
+      categoryId: DIC_kwDOQ2Yhk84C0vov
