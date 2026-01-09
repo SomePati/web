@@ -36,7 +36,7 @@ menu:
       weight: 3
     - name: github
       weight: 4
-      url: "https://github.com/SomePati/hextra-starter-template"
+      url: "https://github.com/SomePati/web"
       params:
         icon: github
 
