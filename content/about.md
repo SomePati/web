@@ -1,7 +1,7 @@
 ---
 title: about
 ---
-Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+{{ partial "reading-time.html" . }}
 
 This is the about page.
 
