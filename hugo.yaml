@@ -4,7 +4,17 @@ title: '0x0 = ERROR_SUCCESS'
 
 module:
   imports:
-    - path: "github.com/imfing/hextra"
+    - path: "github.com/hugo-sid/hugo-blog-awesome"
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
 
 menu:
   main:
@@ -35,13 +45,3 @@ params:
   editURL:
     enable: true
     base: "https://github.com/SomePati/web/edit/main/content"
-
-  comments:
-    enable: false
-    type: giscus
-
-    giscus:
-      repo: SomePati/web
-      repoId: R_kgDOQ0L82A
-      category: General
-      categoryId: DIC_kwDOQ0L82M4C0m65
