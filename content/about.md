@@ -1,6 +1,7 @@
 ---
 title: about
 ---
+Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
 
 This is the about page.
 
