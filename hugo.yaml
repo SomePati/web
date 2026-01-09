@@ -1,6 +1,6 @@
 baseURL: 'https://somepati.github.io/web'
 languageCode: 'en-us'
-title:'0x0 = ERROR_SUCCESS'
+title: '0x0 = ERROR_SUCCESS'
 
 module:
   imports:
