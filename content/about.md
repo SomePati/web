@@ -6,6 +6,13 @@ title: about
 
 {{ .ReadingTime }}
 
+
+
+{{ $readingTime := div (float .WordCount) .Site.Params.reading_speed }}
+{{ $readingTime = math.Ceil $readingTime }}
+
+
+
 This is the about page.
 
 ## Credits
