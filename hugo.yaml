@@ -4,8 +4,7 @@ title = '0x0 = ERROR_SUCCESS'
 
 module:
   imports:
-    - path: g
-    path = "github.com/hugo-sid/hugo-blog-awesome"
+    - path = "github.com/hugo-sid/hugo-blog-awesome"
 
 menu:
   main:
@@ -27,7 +26,7 @@ menu:
       url: "https://github.com/SomePati/hextra-starter-template"
       params:
         icon: github
-        
+
 params:
   navbar:
     displayTitle: true
