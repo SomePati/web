@@ -1,0 +1,20 @@
+{
+    "name": "0x0 = ERROR_SUCCESS",
+    "short_name": "0x0 = ERROR_SUCCESS",
+    "start_url": "https://somepati.github.io/web/",
+    "theme_color": "#434648",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/web/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/web/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
