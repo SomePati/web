@@ -1,10 +1,10 @@
-baseURL = 'https://somepati.github.io/web'
-languageCode = 'en-us'
-title = '0x0 = ERROR_SUCCESS'
+baseURL: 'https://somepati.github.io/web'
+languageCode: 'en-us'
+title:'0x0 = ERROR_SUCCESS'
 
 module:
   imports:
-    - path = "github.com/hugo-sid/hugo-blog-awesome"
+    - path: "github.com/hugo-sid/hugo-blog-awesome"
 
 menu:
   main:
