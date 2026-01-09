@@ -1,0 +1,52 @@
+baseURL = 'https://somepati.github.io/web'
+languageCode = 'en-us'
+title = '0x0 = ERROR_SUCCESS'
+
+module:
+  imports:
+    - path: g
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: "https://github.com/SomePati"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: Github
+      weight: 5
+      url: "https://github.com/SomePati/hextra-starter-template"
+      params:
+        icon: github
+        
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/SomePati/hextra-starter-template/edit/main/content"
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: SomePati/hextra-starter-template
+      repoId: R_kgDOQ0L82A
+      category: General
+      categoryId: DIC_kwDOQ0L82M4C0m65
